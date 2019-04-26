@@ -1,6 +1,5 @@
 {
   "_from": "apexcharts",
-  "_id": "apexcharts@3.6.8",
   "_inBundle": false,
   "_integrity": "sha512-53cgmbPAnHTHQEqvbLphEaLBWG3kJdCxCGkBQss+ZCAxnD/TwS6wxI1SIN0uBQf35d8hN/IXCAH4ayGPEBftXQ==",
   "_location": "/apexcharts",
@@ -19,14 +18,10 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/apexcharts/-/apexcharts-3.6.8.tgz",
   "_shasum": "f72a6680363ed23c567c152449798f216df4de06",
   "_spec": "apexcharts",
   "_where": "/Users/bruce/IBM/GaiaSyncCIPReport/reportUI",
-  "author": {
-    "name": "Juned Chhipa",
-    "email": "juned.chhipa@gmail.com"
-  },
+  "author": "Juned Chhipa <juned.chhipa@gmail.com>",
   "bugs": {
     "url": "https://github.com/apexcharts/apexcharts.js/issues"
   },
@@ -110,10 +105,10 @@
   ],
   "main": "dist/apexcharts.common.js",
   "module": "dist/apexcharts.esm.js",
-  "name": "apexcharts",
+  "name": "modified-line-chart",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apexcharts/apexcharts.js.git"
+    "url": "git+https://github.com/iBruceCui/linechart/tree/master/apexcharts.git"
   },
   "scripts": {
     "build": "npm run bundle && webpack",
